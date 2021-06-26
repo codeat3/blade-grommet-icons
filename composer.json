@@ -1,12 +1,12 @@
 {
-    "name": "blade-organization/blade-heroicons",
-    "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
-    "keywords": ["Blade", "Heroicons", "Laravel"],
-    "homepage": "https://github.com/blade-organization/blade-heroicons",
+    "name": "codeat3/blade-grommet-icons",
+    "description": "A package to easily make use of Grommet in your Laravel Blade views.",
+    "keywords": ["Blade", "Grommet", "Laravel"],
+    "homepage": "https://github.com/codeat3/blade-grommet-icons",
     "license": "MIT",
     "authors": [
         {
-            "name": "Blade Developer"
+            "name": "Swapnil Sarwe"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BladeUI\\Heroicons\\": "src"
+            "Codeat3\\BladeGrommetIcons\\": "src"
         }
     },
     "autoload-dev": {
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
+                "Codeat3\\BladeGrommetIcons\\BladeGrommetIconsServiceProvider"
             ]
         }
     },

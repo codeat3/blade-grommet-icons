@@ -2,7 +2,7 @@
 
 return [
     [
-        'source' => __DIR__.'/../node_modules/heroicons',
+        'source' => null,
         'destination' => __DIR__.'/../resources/svg',
     ],
 ];
