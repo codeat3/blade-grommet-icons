@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="./socialcard-blade-grommet-icons.png" width="1280" title="Social Card Blade Carbon Icons">
+</p>
+
 # Blade Grommet Icons
 
 <a href="https://github.com/codeat3/blade-grommet-icons/actions?query=workflow%3ATests">
