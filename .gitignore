@@ -5,3 +5,4 @@ composer.lock
 phpunit.xml
 .php-cs-fixer.cache
 package-lock.json
+dist/
