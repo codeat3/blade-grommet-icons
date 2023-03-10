@@ -9,11 +9,11 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
     $iconProcessor
         ->optimize()
         ->postOptimizationAsString(function ($svgLine){
-            // $svgLine = str_replace('stroke="#000"', 'stroke="currentColor"', $svgLine);
-            // return str_replace('fill="black"', 'fill="currentColor"', $svgLine);
             $replacePattern = [
                 '/stroke="#[0-9A-Z]+"/s' => 'stroke="currentColor"',
-                '/fill="#[0-9A-Z]+"/s' => 'fill="currentColor"',
+                '/fill\="\#[0-9A-Z]+"/s' => 'fill="currentColor"',
+                '/fill\="black"/s' => 'fill="currentColor"',
+                '/stroke\="black"/s' => 'stroke="currentColor"',
             ];
             return preg_replace(array_keys($replacePattern), array_values($replacePattern), $svgLine);
         })
@@ -35,6 +35,6 @@ return [
         // with the pathname of the icon and the settings from above...
         'after' => $svgNormalization,
 
-        'is-solid' => true,
+        'is-solid' => false,
     ],
 ];
