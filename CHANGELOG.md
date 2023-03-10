@@ -2,7 +2,7 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-grommet-icons/compare/1.5.1...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-grommet-icons/compare/1.5.2...HEAD)
 
 ## 1.2.1 (2021-10-07)
 
@@ -12,6 +12,14 @@ Synced with the latest release [v4.6.2](https://github.com/grommet/grommet-icons
 
 Initial release.
 Synced with the latest release [v4.6.0](https://github.com/grommet/grommet-icons/releases/tag/v4.6.0)
+
+## [1.5.2](https://github.com/codeat3/blade-grommet-icons/compare/1.5.1...1.5.2) - 2023-03-10
+
+### What's Changed
+
+- icon updates with correct fill attributes by @swapnilsarwe in https://github.com/codeat3/blade-grommet-icons/pull/5
+
+**Full Changelog**: https://github.com/codeat3/blade-grommet-icons/compare/1.5.1...1.5.2
 
 ## [1.5.1](https://github.com/codeat3/blade-grommet-icons/compare/1.4.1...1.5.1) - 2023-02-27
 
