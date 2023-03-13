@@ -10,8 +10,8 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
         ->optimize()
         ->postOptimizationAsString(function ($svgLine){
             $replacePattern = [
-                '/stroke="#[0-9A-\s]+"/s' => 'stroke="currentColor"',
-                '/fill\="\#[0-9A-Z\s]+"/s' => 'fill="currentColor"',
+                '/stroke="#[0-9A-Za-z\s]+"/s' => 'stroke="currentColor"',
+                '/fill\="\#[0-9A-Za-z\s]+"/s' => 'fill="currentColor"',
                 '/fill\="black"/s' => 'fill="currentColor"',
                 '/stroke\="black"/s' => 'stroke="currentColor"',
             ];
