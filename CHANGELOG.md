@@ -2,7 +2,7 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-grommet-icons/compare/1.8.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-grommet-icons/compare/1.8.3...HEAD)
 
 ## 1.2.1 (2021-10-07)
 
@@ -12,6 +12,14 @@ Synced with the latest release [v4.6.2](https://github.com/grommet/grommet-icons
 
 Initial release.
 Synced with the latest release [v4.6.0](https://github.com/grommet/grommet-icons/releases/tag/v4.6.0)
+
+## [1.8.3](https://github.com/codeat3/blade-grommet-icons/compare/1.8.2...1.8.3) - 2023-09-25
+
+### What's Changed
+
+- chore: update icons with the latest commit [73bdd33](https://github.com/grommet/grommet-icons/commit/73bdd3396556f86f9dba6f23bf685e151bbb3982) by @github-actions in https://github.com/codeat3/blade-grommet-icons/pull/18
+
+**Full Changelog**: https://github.com/codeat3/blade-grommet-icons/compare/1.8.2...1.8.3
 
 ## [1.8.2](https://github.com/codeat3/blade-grommet-icons/compare/1.7.2...1.8.2) - 2023-06-23
 
