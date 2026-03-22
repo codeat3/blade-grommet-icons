@@ -11,7 +11,7 @@ use Orchestra\Testbench\TestCase;
 class CompilesIconsTest extends TestCase
 {
     /** @test */
-    public function it_compiles_a_single_anonymous_component()
+    public function test_test_it_compiles_a_single_anonymous_component()
     {
         $result = svg('grommet-ad')->toHtml();
 
@@ -24,7 +24,7 @@ class CompilesIconsTest extends TestCase
     }
 
     /** @test */
-    public function it_can_add_classes_to_icons()
+    public function test_test_it_can_add_classes_to_icons()
     {
         $result = svg('grommet-ad', 'w-6 h-6 text-gray-500')->toHtml();
 
@@ -36,7 +36,7 @@ class CompilesIconsTest extends TestCase
     }
 
     /** @test */
-    public function it_can_add_styles_to_icons()
+    public function test_it_can_add_styles_to_icons()
     {
         $result = svg('grommet-ad', ['style' => 'color: #555'])->toHtml();
 
