@@ -2,7 +2,7 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-grommet-icons/compare/1.10.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-grommet-icons/compare/1.11.0...HEAD)
 
 ## 1.2.1 (2021-10-07)
 
@@ -12,6 +12,14 @@ Synced with the latest release [v4.6.2](https://github.com/grommet/grommet-icons
 
 Initial release.
 Synced with the latest release [v4.6.0](https://github.com/grommet/grommet-icons/releases/tag/v4.6.0)
+
+## [1.11.0](https://github.com/codeat3/blade-grommet-icons/compare/1.10.0...1.11.0) - 2026-03-22
+
+### What's Changed
+
+* laravel 13 compatibility by @swapnilsarwe in https://github.com/codeat3/blade-grommet-icons/pull/21
+
+**Full Changelog**: https://github.com/codeat3/blade-grommet-icons/compare/1.10.0...1.11.0
 
 ## [1.10.0](https://github.com/codeat3/blade-grommet-icons/compare/1.9.0...1.10.0) - 2025-02-25
 
